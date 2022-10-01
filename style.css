@@ -72,14 +72,24 @@ nav a:hover{
 }
 .cabeza h1 {
     color: aliceblue;
+    font-family: ffontabcs;
     font-weight: 700;
-    font-size: 150px;
+    font-size: 130px;
+}
+.cabeza h2
+{
+    color: aliceblue;
+    font-family: ffontabcs;
+    font-weight: 50;
+    font-size: 20px;
 }
 .cabeza h4{
     color: aliceblue;
+    font-family: ffonthhbbb;
     font-weight: 50;
-    font-size: 50px;
+    font-size: 40px;
 }
+
 .cabeza h6 {
     color: aliceblue;
     font-weight: 700;
@@ -94,4 +104,15 @@ height: 300px;
 width: 100%;
 background-color: black;
 z-index: 100;
+}
+
+@font-face {
+    font-family: ffontabcs;
+    src: url(fonts/Audiowide-Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: ffonthhbbb;
+    src: url(fonts/ArgentumNovus-Regular.ttf) format('truetype');
 }
