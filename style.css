@@ -40,7 +40,7 @@ nav a{
     transition: 0.2s;
 }
 nav a:hover{
-    opacity:0;
+    opacity:1;
     font-size: 120%;
 }
 .cabeza{
@@ -63,12 +63,25 @@ nav a:hover{
     z-index: 10;
 }
 .titulo{
-    height: 80%;
+    height: 48%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+
+}
+.subtitulo{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    overflow: hidden;
+
 }
 .cabeza h1 {
     color: aliceblue;
@@ -99,6 +112,32 @@ nav a:hover{
 00dccd
 */
 
+ul {
+    list-style: none;
+    animation: ctexto 15s infinite;
+}
+
+@keyframes ctexto{
+    0%{ margin-top: 0;}
+    20%{ margin-top: 0;}
+
+    25%{margin-top: -40px;}
+    45%{margin-top: -40px;}
+
+    50%{margin-top: -80px;}
+    70%{margin-top: -80px;}
+
+    75%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+}
+
+li{
+    color: aliceblue;
+    font-family: ffonthhbbb;
+    font-weight: 50;
+    font-size: 40px;
+}
 .conteiner{
 height: 300px;
 width: 100%;
