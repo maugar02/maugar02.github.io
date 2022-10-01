@@ -44,9 +44,10 @@ nav a:hover{
     font-size: 120%;
 }
 .cabeza{
-    height:100%;
+    height: 100%;
     background-color: #0c7ccd;
-    background-image: url(cabezaFondo.jpg);
+    background-image: url(fondo2.jpg);
+    background-position: -20px;
     align-items: center;
     justify-content: center;
    
@@ -62,7 +63,7 @@ nav a:hover{
     z-index: 10;
 }
 .titulo{
-    height: 100%;
+    height: 80%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -72,12 +73,17 @@ nav a:hover{
 .cabeza h1 {
     color: aliceblue;
     font-weight: 700;
-    font-size: 200px;
+    font-size: 150px;
+}
+.cabeza h4{
+    color: aliceblue;
+    font-weight: 50;
+    font-size: 50px;
 }
 .cabeza h6 {
     color: aliceblue;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
 }
 /*0578cb
 00dccd
