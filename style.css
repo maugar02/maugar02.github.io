@@ -136,7 +136,7 @@ header{
 00dccd
 */
 
-ul {
+.subtitulo ul {
     list-style: none;
     animation: ctexto 15s infinite;
 }
