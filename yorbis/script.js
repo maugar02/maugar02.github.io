@@ -35,7 +35,7 @@ function calcularTiempoHora(fechaInicio) {
     return `${dias}`;
 }
 
-const fechaInicio = new Date('2024-12-10T00:00:00');
+const fechaInicio = new Date('2024-10-13T00:00:00');
 const contador_mes = document.getElementById('contador_mes');
 const contador_dia = document.getElementById('contador_dia');
 const contador_hora = document.getElementById('contador_hora');
