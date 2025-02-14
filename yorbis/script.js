@@ -1,4 +1,4 @@
-function calcularTiempoDia(fechaInicio) {
+function calcularTiempoMes(fechaInicio) {
     const fechaActual = new Date();
     const tiempoTranscurrido = fechaActual - fechaInicio;
 
@@ -7,10 +7,10 @@ function calcularTiempoDia(fechaInicio) {
     const horas = Math.floor(minutos / 60);
     const dias = Math.floor(horas / 24);
     const meses = Math.floor(dias / 30); // Aproximación de meses
-
-    return `${dias % 30}`;
+    const annos = Math.floor(meses / 12);
+    return `${annos % 12}`;
 }
-function calcularTiempoMes(fechaInicio) {
+function calcularTiempoDia(fechaInicio) {
     const fechaActual = new Date();
     const tiempoTranscurrido = fechaActual - fechaInicio;
 
@@ -32,7 +32,7 @@ function calcularTiempoHora(fechaInicio) {
     const dias = Math.floor(horas / 24);
     const meses = Math.floor(dias / 30); // Aproximación de meses
 
-    return `${horas % 24}`;
+    return `${dias}`;
 }
 
 const fechaInicio = new Date('2024-12-10T00:00:00');
