@@ -8,7 +8,7 @@ body {
     margin-bottom: 80px;
 
     font-family: 'Roboto', sans-serif;
-    background-image: url('fondo_corazones.webp');
+    background-image: url('fondo3.jpg');
     background-repeat: repeat;
     background-size: auto; /* Ajusta el tamaño de la imagen según sea necesario */
     background-position: top left; 
@@ -28,32 +28,49 @@ body {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    color: blueviolet; /* Asegúrate de que el texto sea visible sobre el fondo */
-    font-size: 30px;
+    color: rgb(255, 0, 255); /* Asegúrate de que el texto sea visible sobre el fondo */
+    font-size: 35px;
     text-decoration-color: violet;
+    background-color: RGBa(255, 198, 195, 1);
 }
 
 #titulo1 {
     text-align: center;
     margin-bottom: 5px;
     color: blue; /* Asegúrate de que el texto sea visible sobre el fondo */
-    font-size: 18px;
+    font-size: 20px;
     
 }
 
 #titulo3 {
 }
 
+#titulo4 {
+
+    text-align: center;
+    margin-bottom: 5px;
+    color: palevioletred; /* Asegúrate de que el texto sea visible sobre el fondo */
+    font-size: 25px;
+}
+
+#titulo5 {
+
+    text-align: center;
+    margin-bottom: 5px;
+    color: palevioletred; /* Asegúrate de que el texto sea visible sobre el fondo */
+    font-size: 20px;
+}
+
 #imagen {
     display: block;
     max-height: 400px;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 15px;
 }
 
 #contador_mes {
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-color: rgb(255, 0, 255);
     text-align: center;
     margin-top: 10px;
     font-family: sans-serif;
@@ -63,7 +80,7 @@ body {
 
 #contador_dia {
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-color: rgb(255, 0, 255);
     text-align: center;
     margin-top: 10px;
     font-family: sans-serif;
@@ -73,7 +90,7 @@ body {
 
 #contador_hora {
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-color: rgb(255, 0, 255);
     text-align: center;
     margin-top: 10px;
     font-family: sans-serif;
@@ -94,7 +111,7 @@ body {
     text-align: justify;
     margin-top: 20px;
     color: white;
-    background: rgba(0, 0, 0, 0.2); /* Fondo semitransparente para mejorar legibilidad */
+    background: rgba(255, 0, 255, 0.30); /* Fondo semitransparente para mejorar legibilidad */
     padding: 20px;
     border-radius: 10px;
 }
@@ -109,7 +126,7 @@ footer {
     position: absolute;
     bottom: 0;
     padding: 10px 0;
-    background: rgba(0, 0, 0, 0.3); /* Fondo semitransparente */
+    background: rgba(255, 0, 255, 0.20); /* Fondo semitransparente */
     color: white;
     height: 30px;
 }
