@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Juego de la Serpiente</title>
+    <link rel="stylesheet" href="game-style.css">
+    <link rel="stylesheet" href="snake-mobile.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div>Puntuación: <span id="score">0</span></div>
+            <div>Vidas: <span id="lives">3</span></div>
+        </div>
+
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="controls">
+            </div>
+        <div class="game-footer">
+            <a href="index.html">Volver al Menú</a>
+        </div>
+        <div class="controls">
+            <button id="leftBtn">◄</button>
+            
+            <div>
+                <button id="upBtn">▲</button>
+                <button id="downBtn">▼</button>
+            </div>
+            
+            <button id="rightBtn">►</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <h2 id="popup-message"></h2>
+            <button id="resetButton">Jugar de Nuevo</button>
+        </div>
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+</html>

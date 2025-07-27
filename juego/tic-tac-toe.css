@@ -1,0 +1,39 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, clamp(80px, 25vw, 110px));
+    grid-template-rows: repeat(3, clamp(80px, 25vw, 110px));
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.cell {
+    background-color: #34495e;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; /* Tamaño de letra más grande para X y O */
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cell:hover {
+    background-color: #4a627a;
+}
+
+/* Estilos para X y O */
+.cell.x {
+    color: #3498db; /* Azul */
+}
+
+.cell.o {
+    color: #e74c3c; /* Rojo */
+}
+
+/* Animación para celdas ganadoras */
+.cell.winner {
+    background-color: #f1c40f;
+    color: #2c3e50;
+}
